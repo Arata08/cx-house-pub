@@ -1,0 +1,451 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#2979ff", //小圈圈的颜色
+						"style": "circle" //小圈圈的样式
+					}
+				},
+				"usingComponents": {
+					// #ifdef  MP-WEIXIN 
+					 "txv-video": "plugin://tencentvideo/video"
+					// #endif
+				}
+			}
+		},
+		{
+            "path" : "pages/index/sign",
+            "style" :
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "navigationBarTitleText": "签到",
+                "enablePullDownRefresh": true
+            }
+        },
+		{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "密码登录",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+			"path": "pages/index/center",
+			"style": {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+		    "path" : "pages/login/code",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "获取验证码",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		,{
+		    "path" : "pages/login/account",
+		    "style" :                                                                                    
+		    {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+		        "navigationBarTitleText": "短信登录",
+		        "enablePullDownRefresh": false
+		    }
+		}
+		,{
+		    "path" : "pages/login/problem",
+		    "style" :                                                                                    
+		    {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+		        "navigationBarTitleText": "常见问题",
+		        "enablePullDownRefresh": false
+		    }
+		}
+        ,{
+            "path" : "pages/profile/setting",
+            "style" :                                                                                    
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/profile/password",
+            "style" :                                                                                    
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "navigationBarTitleText": "修改密码",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+               // #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "enablePullDownRefresh": false
+				
+            }
+            
+        }
+		,{
+		    "path" : "pages/location/location",
+		    "style": {
+		    	// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+		    	"navigationBarTitleText": "选择城市"
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/location/morecity",
+		    "style": {
+		    	"navigationBarTitleText": "更多城市"
+		    }
+		    }
+        ,{
+            "path" : "pages/notice/notice",
+            "style" :                                                                                    
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+				"navigationBarTitleText": "通知公告"
+            }
+            
+        },
+		{
+		    "path" : "pages/content/content",
+		    "style": {
+		    	// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+		    	"navigationBarTitleText": "资讯"
+		    }
+		},
+		{
+		    "path" : "pages/profile/aboutMe",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "关于我",
+		    	// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom",// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		// #ifdef  MP-WEIXIN
+        ,{
+            "path" : "pages/search/searchList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房源列表",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#2979ff", //小圈圈的颜色
+						"style": "circle" //小圈圈的样式
+					}
+				}
+            }
+            
+        }
+		// #endif
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "navigationBarTitleText": "房源详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/addHouse",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/preHouse",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预增房源",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/profile/avatar",
+            "style" :                                                                                    
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "navigationBarTitleText": "设置头像",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+			"path": "pages/chooseAddress/index",
+			"style": {
+				"navigationBarBackgroundColor":"#f8f8f8",
+				"navigationBarTitleText":"地图",
+				"backgroundColorTop": "#f8f8f8",
+				"backgroundColorBottom":"#ffffff"
+			}
+		},
+		{
+		    "path" : "pages/chooseAddress/search",
+		    "style" : {
+				"navigationBarTitleText":"地址搜索"
+			}
+		}
+		,{
+		    "path" : "pages/chooseAddress/cityList",
+		    "style" : {
+				"navigationBarTitleText":"选择城市"
+			}
+		}
+		,{
+		    "path" : "pages/webview/webview",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "丽丽租好房"
+		    }
+		}
+        ,{
+            "path" : "pages/detail/evalList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "房源评价",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+        {
+        	"path" : "pages/login/detail/detail",
+        	"style" : 
+        	{
+        		"navigationBarTitleText" : "",
+        		"enablePullDownRefresh" : false
+        	}
+        }
+		,{
+		"path": "uni_modules/uni-pay/pages/success/success",
+		"style": {
+			"backgroundColor": "#F8F8F8",
+			"navigationBarTitleText": "支付成功"
+			}
+		}
+		,{
+		"path": "pages/change/balance",
+		"style": {
+			"backgroundColor": "#F8F8F8",
+			"navigationBarTitleText": "我的余额"
+		}
+		},{
+		"path": "pages/change/vip",
+		"style": {
+				"navigationBarTitleText": "房东卡",
+				"navigationBarBackgroundColor": "#53536B",
+				"navigationBarTextStyle": "white"
+		}
+		}
+	,{
+    "path": "uni_modules/uni-pay/pages/ad-interactive-webview/ad-interactive-webview",
+    "style": {
+        "backgroundColor": "#F8F8F8",
+        "navigationBarTitleText": "ad"
+    }
+	}
+	,{
+		"path": "uni_modules/uni-pay/pages/pay-desk/pay-desk",
+		"style": {
+			"backgroundColor": "#F8F8F8",
+			"navigationBarTitleText": "收银台"
+		}
+	}
+],
+"subpackages": [
+    {
+      "root": "pages/center",
+      "pages": [
+		{
+            "path" : "order",
+            "style" :
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "navigationBarTitleText": "我的委托",
+                "enablePullDownRefresh": false
+            }
+        },
+		{
+		    "path" : "heart",
+		    "style" :
+		    {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+		        "navigationBarTitleText": "收藏",
+		        "enablePullDownRefresh": false
+		    }
+		},
+		{
+            "path" : "history",
+            "style" :
+            {
+				// #ifdef  MP-WEIXIN
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				// #endif
+				// #ifdef  MP-TOUTIAO
+				"navigationStyle": "default",
+				// #endif
+                "navigationBarTitleText": "浏览记录",
+                "enablePullDownRefresh": false
+            }
+        }
+		// #ifdef  MP-WEIXIN
+		,{
+            "path" : "help",
+            "style" : {
+                "navigationBarTitleText": "求租信息"
+            }
+        }
+		// #endif
+      ]
+    }
+],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "World",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"tabBar": {
+	    "color": "#909399",
+	    "selectedColor": "#2979ff",
+	    // "borderStyle": "#909399",
+		"borderStyle": "white",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/index.png",
+	        "selectedIconPath": "static/index-selected.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/index/sign",
+	        "iconPath": "static/fuli.png",
+	        "selectedIconPath": "static/fuli-selected.png",
+	        "text": "福利"
+	    }, {
+	        "pagePath": "pages/index/center",
+	        "iconPath": "static/center.png",
+	        "selectedIconPath": "static/center-selected.png",
+	        "text": "我的"
+	    }]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	},
+	"permission":{
+	  "scope.userFuzzyLocation":{
+	    "desc":"位置信息效果展示"
+	  }
+	}
+}
