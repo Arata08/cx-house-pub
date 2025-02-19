@@ -64,3 +64,9 @@
 1. <font style="color:rgb(36, 41, 46);background-color:rgb(254, 254, 254);">詹Sir</font>
 2. <font style="color:rgb(36, 41, 46);background-color:rgb(254, 254, 254);">邮箱：261648947@qq.com</font>
 
+<font style="color:rgb(36, 41, 46);background-color:rgb(254, 254, 254);"></font>
+
+<font style="color:rgb(36, 41, 46);background-color:rgb(254, 254, 254);">本人 QQ：2938244975，欢迎联系</font>
+
+![](https://cdn.nlark.com/yuque/0/2025/jpeg/47353919/1739959551829-8c58d89b-f13f-4708-895a-0744cb8bf5df.jpeg)
+
