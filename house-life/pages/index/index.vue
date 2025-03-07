@@ -167,7 +167,7 @@
 				],
 				flowList: [{
 					id: 1,
-					image: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg',
+					image: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png',
 					area2: '未划分',
 					villageName: '阳光小区',
 					type: '住房',

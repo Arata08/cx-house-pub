@@ -85,12 +85,12 @@
 						url: "pages/change/balance"
 					}
 				],
-				avatar: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg',
+				avatar: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png',
 				vuex_user: {
 					user: {
 						nickName: '张三',
 						userId: 1,
-						avatar: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg'
+						avatar: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png'
 					}
 				},
 				vuex_version: '1.0.0'

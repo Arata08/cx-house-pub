@@ -43,7 +43,7 @@
 	export default {
 		data() {
 			return {
-				pic: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg',
+				pic: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png',
 				nickName: "帅哥",
 				showModel: false,
 				phonenumber: '19515861232',
@@ -51,7 +51,7 @@
 					user: {
 						nickName: '张三',
 						phonenumber: '19515861232',
-						avatar: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg'
+						avatar: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png'
 					}
 				}
 			};

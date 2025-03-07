@@ -3,8 +3,8 @@
 		<view class="user">
 			<u-avatar :src="avatar" size="140"></u-avatar>
 			<view class="user-info">
-				<view class="u-font-18 u-tips-color">{{vuex_user.user.nickName}}</view>
-				<text v-if="membershipInfo" style="color:lightcoral;">会员到期时间: {{ membershipInfo.expiresAt }}</text>
+				<view class="u-font-18 u-tips-color">帅哥</view>
+				<text v-if="membershipInfo" style="color:lightcoral;">2025-06-07</text>
 			</view>
 		</view>
 

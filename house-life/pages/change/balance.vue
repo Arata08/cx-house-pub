@@ -3,7 +3,7 @@
 		<view class="title">
 			<image src="../../static/buy.png"></image>
 			<text class="text">余额：</text>
-			<text class="num">{{ vuex_user.user.charge}}</text>
+			<text class="num">11</text>
 		</view>
 		<view class="number">
 			<view class="list">

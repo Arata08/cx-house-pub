@@ -42,8 +42,8 @@
 				listData: [{
 					id: 1,
 					name: "张三",
-					avatar: "https://free4.yunpng.top/2025/02/19/67b587e227050.jpg",
-					image: "https://free4.yunpng.top/2025/02/19/67b587e227050.jpg",
+					avatar: "https://free4.yunpng.top/2024/12/02/674d2d2380346.png",
+					image: "https://free4.yunpng.top/2024/12/02/674d2d2380346.png",
 					evaluate: "这是一个评价示例",
 					createTime: "2023-10-01",
 					userCity: "北京",

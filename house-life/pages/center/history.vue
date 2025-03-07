@@ -68,7 +68,7 @@
 				houseHistory: [{
 					id: 1,
 					code: 'A001',
-					faceUrl: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg',
+					faceUrl: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png',
 					villageName: '阳光小区',
 					type: '租房',
 					houseNum: 2,

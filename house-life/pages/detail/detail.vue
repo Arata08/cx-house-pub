@@ -170,7 +170,9 @@
 			return {
 				nvueWidth: "70%",
 				room: {
+					stepType: '1',
 					id: 1,
+					payType: '月付',
 					type: '租房',
 					houseNum: 2,
 					houseHall: 1,
@@ -178,12 +180,12 @@
 					price: 2500,
 					pageViews: 100,
 					wantRent: 5,
-					agentAvatar: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg',
+					agentAvatar: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png',
 					ownerName: '张三',
 					agentPhone: '13800138000',
 					heart: false,
 					imageList: [{
-						imgUrl: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg',
+						imgUrl: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png',
 						imageName: '图片1'
 					}],
 					featureList: [{
@@ -211,7 +213,7 @@
 				},
 				swiperlist: [{
 					title: '图片1',
-					image: 'https://free4.yunpng.top/2025/02/19/67b587e227050.jpg'
+					image: 'https://free4.yunpng.top/2024/12/02/674d2d2380346.png'
 				}],
 				tagList: [{
 						title: '近地铁'
